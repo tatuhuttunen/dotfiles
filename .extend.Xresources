@@ -1,0 +1,58 @@
+! special
+*.background:   #1E2127
+*.foreground:   #ABB2BF
+*.cursorColor:  #5C6370
+
+ 
+
+! black
+*.color0:       #1E2127
+*.color8:       #5C6370
+
+! red
+*.color1:       #E06C75
+*.color9:       #E06C75
+
+! green
+*.color2:       #98C379
+*.color10:      #98C379
+
+! yellow
+*.color3:       #D19A66
+*.color11:      #D19A66
+
+! blue
+*.color4:       #61AFEF
+*.color12:      #61AFEF
+
+! magenta
+*.color5:       #C678DD
+*.color13:      #C678DD
+
+! cyan
+*.color6:       #56B6C2
+*.color14:      #56B6C2
+
+! white
+*.color7:       #ABB2BF
+*.color15:      #FFFFFF
+
+
+Xcursor.theme: Adwaita
+Xcursor.size:                     0
+
+xterm*borderWidth: 		  0
+!XTerm*reverseVideo:               on
+XTerm*faceName:                   Terminus:size=13:antialias=true
+XTerm*selectToClipboard:          true
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! Based on Adapta-Nokto GTK theme (https://github.com/adapta-project/adapta-gtk-theme)  
+! Copyright: PyGeek03
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #3a4c54, #2a373e, #c3c6c8
+rofi.color-normal: #455a64, #fafbfc, #455a64, #00bcd4, #fafbfc
+rofi.color-active: #455a64, #00bcd4, #455a64, #009688, #fdf6e3
+rofi.color-urgent: #455a64, #ff5252, #455a64, #ff5252, #fdf6e3
